@@ -1,0 +1,17 @@
+class Ejercicio14:
+
+    @staticmethod
+    def calcular_cuadrado(num):
+        return pow(num, 2)
+
+    @staticmethod
+    def calcular_cubo(num):
+        return pow(num, 3)
+
+num = int(input("Escriba un número:\n"))
+
+cuadrado = Ejercicio14.calcular_cuadrado(num)
+cubo = Ejercicio14.calcular_cubo(num)
+
+print(f"El cuadrado del número es: {cuadrado}")
+print(f"El cubo del número es: {cubo}")
