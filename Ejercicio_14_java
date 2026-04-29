@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mypoo2.ejercicio_14;
+import java.util.Scanner;
+/**
+ *
+ * @author HP-255-G10
+ */
+public class Ejercicio_14 {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+        int num;
+
+        System.out.println("Escriba un numero: ");
+        num = entrada.nextInt();
+
+        double cuadrado = calculos_14.calcularCuadrado( num);
+        double cubo = calculos_14.calcularCubo(num);
+
+        System.out.println("El cuadrado del numero es: " + cuadrado);
+        System.out.println("El cubo del numero es: " + cubo);
+    }
+}
