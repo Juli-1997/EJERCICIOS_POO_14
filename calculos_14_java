@@ -1,0 +1,17 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package com.mypoo2.ejercicio_14;
+
+
+public class calculos_14 {
+
+    public static double calcularCuadrado(int num) {
+        return (int) Math.pow(num, 2);
+    }
+
+    public static double calcularCubo(int num) {
+        return Math.pow(num, 3);
+    }
+}
